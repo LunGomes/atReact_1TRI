@@ -1,0 +1,288 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+body{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #ffffff;
+  color: #333333;
+}
+ 
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  padding-top: 100px; 
+}
+
+.container4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+}
+ 
+.pags{
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.93px;
+  text-align: left;
+ 
+  padding-right: 50px;
+  padding-left: 50px;
+}
+ 
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.caixaTextos{
+  display: flex;
+  flex-direction: column;
+  align-items: left;  
+  width: 577px;
+}
+ 
+.titulo{
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0px;
+ 
+  text-align: left;
+}
+ 
+.texto{
+  font-size: 24px;
+  font-weight: 400;
+  width: 497px;
+  line-height: 31.65px;
+  text-align: left;
+}
+ 
+.botao{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 18px;
+ 
+  align-self: start;
+  width: 297px;
+  height: 66px;
+  gap: 10px;
+  border-radius: 40px;
+  background-color: #333333;
+  color: #ffffff;
+}
+ 
+.card1{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+ 
+  width: 235px;
+  height: 340px;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 16px 34px;
+  border-radius: 16px;
+  background-color: #F1C2B0;
+}
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+ 
+  width: 235px;
+  height: 340px;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 16px 34px;
+  border-radius: 16px;
+  background-color: #F9EB98;
+}
+
+.card3{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+ 
+  width: 235px;
+  height: 340px;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 16px 34px;
+  border-radius: 16px;
+  background-color: #C0D9DD;
+}
+
+.card4{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+ 
+  width: 235px;
+  height: 340px;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 16px 34px;
+  border-radius: 16px;
+  background-color: #6975E8;
+}
+ 
+.cardTop{
+  display: flex;
+  margin-top: 20px;
+}
+ 
+.cardNum{
+  color: #ffffff;
+  text-align: left;
+ 
+  margin: 0;
+  font-size: 64px;
+}
+ 
+.cardImgs{
+  width: 32px;
+  height: 32px;
+ 
+  padding-left: 145px;
+}
+ 
+.tituloCard{
+  font-size: 32px;
+  font-weight: 700;
+ 
+  margin-bottom: 10px;
+  line-height: 42.2px;
+  text-align: left;
+}
+ 
+.textoCard{
+  font-size: 18px;
+  font-weight: 400;
+ 
+  line-height: 23.74px;
+  text-align: left;
+}
+
+.imgCll{
+  padding-left: 65px;
+  padding-right: 50px;
+}
+
+.containerIcons{
+  display: flex;
+  justify-content: left;
+  align-items: center;  
+}
+
+.icons{
+  width: 50.65px;
+  height: 50.65px;
+  margin-top: 50px;
+  padding-right: 90px;
+  align-items: left;
+}
+
+.linha{
+  height: 522px;
+  width: 2px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.containerForm{
+  display: flex;
+  justify-content: left;
+  align-items: center;  
+  padding: 20px;
+}
+
+.nameForm{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 34.29px;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.nameForm2{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 34.29px;
+  text-align: left;
+  padding-right: 35px;
+}
+
+.form{
+  height: 32px;
+  width: 391px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px; 
+  color: #333;
+ 
+}
+
+.caixaMSG{
+  width: 507px;
+  height: 229px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  padding: 0px;
+  font-size: 16px;
+  color: #333;
+}
+
+.DIVcaixaMSG{
+  display: flex;
+  flex-direction: column;
+  align-items: left;  
+  padding: 20px;
+}
+
+.botaoForm{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+ 
+  width: 225px;
+  height: 34px;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: #6975E8;
+  border-color: #6975E8;
+  color: #ffffff;
+
+}
+
+.botaoLado{
+  align-items: end;
+  padding-left: 280px;
+}
+
+Link{
+  color: black;
+}
