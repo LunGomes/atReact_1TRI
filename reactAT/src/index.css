@@ -402,11 +402,9 @@ strong{
 
 .header{
   background-color: #fff;
-  border-color: #EBE9E9  ;
-  border: 2px;
+  border-bottom: 3px solid #3333;
   width: 240px;
   height: 74px;
-  align-self: top;
   border-radius: 20px 20px 0 0;
   display: flex; 
   justify-content: center;
